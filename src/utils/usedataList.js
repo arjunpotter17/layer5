@@ -8,6 +8,7 @@ const useDataList = (
   paramSearch
 ) => {
   const [dataList, setDataList] = useState(data);
+  const testingIssue = null;
   const [search, setSearch] = useState([]);
   const [searchResults, setSearchResults] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
